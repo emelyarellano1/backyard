@@ -1,0 +1,50 @@
+/* Tu CSS va aqui */
+.logo{
+
+	width:200px;
+	margin-top:40px;
+}
+li{
+	display:table-cell;
+}
+li a{
+
+	text-decoration:none;
+	color:#D8D8D8;
+	margin-left:10px;
+	font-family: 'Lato', sans-serif;
+}
+
+ul{
+    margin-top: 40px;
+    font-size:20px; 
+}
+
+.back{
+	height:400px;
+	background-color:#585858;
+}
+
+h1{
+   
+   color:#fff;
+   margin-top:40px;
+   font-size:50px;
+   font-family: 'Lato', sans-serif; 
+}
+p{
+  
+   color:#fff;
+   margin-top:20px;
+   font-size:15px;
+   font-family: 'Lato', sans-serif;	
+}
+
+@media(min-width: 320px) and (max-width: 535px) {
+		a {
+		
+	}
+	.logo{
+	width:80%;
+	}
+}
